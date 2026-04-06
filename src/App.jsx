@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import "./App.css";
 
-const SITE_PASSWORD = "170526";
+const SITE_PASSWORD = "150";
 const SPECIAL_DATE = "2026-05-17T00:00:00";
 
 function TypingText({ text, speed = 35, className = "" }) {
